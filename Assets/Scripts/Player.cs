@@ -28,9 +28,9 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(10);
-            if (SaveGame.CurrentHp <= 0) { SceneManager.LoadScene(2); }
+            if (Hp <= 0) { SceneManager.LoadScene(2); }
         }
-        //if (Input.GetKeyDown(KeyCode.F)) { SceneManager.LoadScene(2); }
+        if (Input.GetKeyDown(KeyCode.P)) { SceneManager.LoadScene(2); }
     }
 
     private void TakeDamage(int damage)

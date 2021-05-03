@@ -25,10 +25,17 @@ public class CubeController : MonoBehaviour
                 print("It was at this moment he knew, he fucked up!");
                 break;
             case 1:
-                print("You got HP bitch!");
+                print("You got Random Potion bitch!");
                 break;
+            //random potion damage, armor, heal PS heal could 
             case 2:
                 print("You got Item bitch!");
+                break;
+            case 3:
+                print("Story time");
+                break;
+            case 4:
+                print("Camp time for healing Player");
                 break;
         }
         _oneTimeClick = true;
@@ -68,7 +75,7 @@ public class CubeController : MonoBehaviour
                         _target = hit.transform.gameObject;
                         _targetPosVector3 = hit.transform.position;
 
-                        _randomBoxNumber = Random.Range(0, 3); //Random Box Number Generator
+                        _randomBoxNumber = Random.Range(0, 6); //Random Box Number Generator
                         print("Random Box Number is: " + _randomBoxNumber);
                         StartCoroutine(SleepTime()); //Wait for 3 second for Action after Warrior move
 
