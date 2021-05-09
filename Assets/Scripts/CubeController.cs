@@ -75,7 +75,7 @@ public class CubeController : MonoBehaviour
                         _target = hit.transform.gameObject;
                         _targetPosVector3 = hit.transform.position;
 
-                        _randomBoxNumber = Random.Range(0, 6); //Random Box Number Generator
+                        _randomBoxNumber = Random.Range(0, 0); //Random Box Number Generator
                         print("Random Box Number is: " + _randomBoxNumber);
                         StartCoroutine(SleepTime()); //Wait for 3 second for Action after Warrior move
 
@@ -98,7 +98,7 @@ public class CubeController : MonoBehaviour
                         _target = hit.transform.gameObject;
                         _targetPosVector3 = hit.transform.position;
 
-                        _randomBoxNumber = Random.Range(0, 3); //Random Box Number Generator
+                        _randomBoxNumber = Random.Range(0, 0); //Random Box Number Generator
                         print("Random Box Number is: " + _randomBoxNumber);
                         StartCoroutine(SleepTime()); //Wait for 3 second for Action after Warrior move
 

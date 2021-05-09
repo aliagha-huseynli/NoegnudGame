@@ -1,49 +1,40 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Monster : MonoBehaviour
 {
-    [SerializeField] private MonsterStats _monsterHealthBar;
     [SerializeField] private Text _healthText;
-    [SerializeField] private int _monsterMaxHealth;
-    [SerializeField] private int _monsterCurrentHealth;
+    [SerializeField] private int maxHealth;
+    [SerializeField] private int health;
     [SerializeField] private Slider _slider;
+    [SerializeField] private Gradient hpGradient;
+    [SerializeField] private Image fill;
+    [SerializeField] private MonsterStats monsterStats;
+    private Element element;
 
     void Start()
     {
-        SaveGame.MaxHp = _monsterMaxHealth = 200;
-        SaveGame.CurrentHp = _monsterCurrentHealth = _monsterMaxHealth;
-        SetSliderValues(SaveGame.MaxHp, SaveGame.CurrentHp);
-        _healthText.text = $"{_monsterCurrentHealth}/{_monsterMaxHealth}";
+        health = monsterStats.Hp;
+        maxHealth = monsterStats.Hp;
+        element = monsterStats.Element;
+
+
+        UpdateUI(maxHealth, health);
     }
 
-    public void SetSliderValues(int max, int value)
+    public void UpdateUI(int max, int value)
     {
         _slider.maxValue = max;
         _slider.value = value;
+        fill.color = hpGradient.Evaluate(health / maxHealth);
+        _healthText.text = $"{health}/{maxHealth}";
     }
 
-    void Update()
+    public void TakeDamage(int damage)
     {
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            TakeDamage(50);
-            if (SaveGame.CurrentHp <= 0)
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-            }
-        }
-
+        health = Mathf.Clamp(health - damage, 0, maxHealth);
+        UpdateUI(maxHealth, health);
     }
-
-    void TakeDamage(int damage)
-    {
-        SaveGame.CurrentHp -= damage;
-        _monsterHealthBar.SetHealth();
-        _healthText.text = $"{SaveGame.CurrentHp}/{SaveGame.MaxHp}";
-    }
-
 }

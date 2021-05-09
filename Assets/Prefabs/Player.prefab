@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5260755600417961669}
   - component: {fileID: 5260755600417961675}
   - component: {fileID: 51066468618861344}
+  - component: {fileID: 1968690260052725735}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -99,6 +100,7 @@ MonoBehaviour:
   Hp: 0
   MaxHp: 0
   playerUIDisplayer: {fileID: 51066468618861344}
+  defaultPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &51066468618861344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,9 +119,6 @@ MonoBehaviour:
   FemaleSprite: {fileID: 21300000, guid: 161960ee984b83a4c92cb59dbfb86aab, type: 3}
   _slider: {fileID: 4050413127028780810}
   HealthText: {fileID: 4050413125537408050}
-  Damage: {fileID: 0}
-  Armor: {fileID: 0}
-  SkillPoint: {fileID: 0}
   PlayerName: {fileID: 5311039144272254922}
   Slider: {fileID: 4050413127028780810}
   Gradient:
@@ -152,6 +151,21 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   FillImage: {fileID: 4050413125963309391}
+--- !u!114 &1968690260052725735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5260755600417961674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1bf643edd6da94485a766c200f91f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - {fileID: 11400000, guid: 433c995e127c33149883cd655396d8eb, type: 2}
+  - {fileID: 11400000, guid: e39fdf2969365774ab27762403769994, type: 2}
 --- !u!1001 &7381507482034935333
 PrefabInstance:
   m_ObjectHideFlags: 0

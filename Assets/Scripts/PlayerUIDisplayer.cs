@@ -23,7 +23,7 @@ public class PlayerUIDisplayer : MonoBehaviour
 
     private void Start()
     {
-        SetSliderValues(SaveGame.MaxHp, SaveGame.CurrentHp);
+        SetSliderValues(player.MaxHp, player.Hp);
         UpdateHealth();
     }
 
@@ -41,6 +41,4 @@ public class PlayerUIDisplayer : MonoBehaviour
         FillImage.color = Gradient.Evaluate(player.Hp / player.MaxHp);
         HealthText.text = $"{player.Hp}/{player.MaxHp}";
     }
-
-
 }

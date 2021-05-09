@@ -1,26 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
-public class MonsterStats : MonoBehaviour
+[CreateAssetMenu(fileName = "New Monster", menuName = "Monster")]
+public class MonsterStats : ScriptableObject
 {
-    #region Monster Health Bar
-
-    public Slider Slider;
-    public Gradient Gradient;
-    public Image FillImage;
-    public SaveGame SaveGame;
-
-    public void SetHealth()
-    {
-        Slider.maxValue = SaveGame.MaxHp;
-        Slider.value = SaveGame.CurrentHp;
-        FillImage.color = Gradient.Evaluate(SaveGame.CurrentHp / SaveGame.MaxHp);
-    }
-
-    #endregion
-
-
+    public Element Element;
+    public int Damage;
+    public int Hp;
 }

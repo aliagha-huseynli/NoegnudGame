@@ -18,7 +18,7 @@ public class MainSceneUIController : MonoBehaviour
 
     private void Start()
     {
-        ClearGender();
+        /////////////////ClearGender();
         LoadGenderAndName();
         SetPlayerInfoUI();
     }
@@ -41,8 +41,8 @@ public class MainSceneUIController : MonoBehaviour
     public void SetPlayerName(TMP_InputField input)
     {
         if (string.IsNullOrEmpty(input.text)) { return; }
-        SaveGame.PlayerName = input.text;
-        PlayerName.text = SaveGame.PlayerName;
+        string playerName = input.text;
+        PlayerName.text = playerName;
         PlayerPrefs.SetString((PlayerUIDisplayer.NAME), input.text);
         _popup.SetActive((false));
         cubes.SetActive(true);
@@ -84,7 +84,6 @@ public class MainSceneUIController : MonoBehaviour
         if (!string.IsNullOrEmpty(previousName))
         {
             PlayerName.text = previousName;
-            SaveGame.PlayerName = previousName;
         }
         else
         {

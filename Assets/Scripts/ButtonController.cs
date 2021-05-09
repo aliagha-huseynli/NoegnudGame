@@ -13,6 +13,8 @@ public class ButtonController : MonoBehaviour
 
     private DiceController _diceController;
 
+    public static event Action OnPlayerAttack;
+
     private void Awake()
     {
         DiceController.OnDicesRolled += EnableButtons;
@@ -28,6 +30,7 @@ public class ButtonController : MonoBehaviour
 
     private void EnableButtons()
     {
+        print("www");
         RollAd.interactable = true;
         RollArmor.interactable = true;
         RollHp.interactable = true;
@@ -36,10 +39,10 @@ public class ButtonController : MonoBehaviour
     public void RollAdBehavior()
     {
         print("+ Attack Damage");
+        OnPlayerAttack?.Invoke();
         RollArmor.interactable = false;
         RollHp.interactable = false;
         RollAd.interactable = false;
-
     }
 
     public void RollArmorBehavior()

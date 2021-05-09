@@ -6,50 +6,15 @@ using Random = UnityEngine.Random;
 
 public class DiceController : MonoBehaviour
 {
-    
-
     private Player _player;
-    //private readonly char[] _numbersRandom = { '1', '2', '3', '4', '5' };
     public Text SlotNumber1;
     public Text SlotNumber2;
     public Text SlotNumber3;
-    private Text _chosenAttackDamage;
-    private Text _chosenArmor;
-    private Text _chosenHeal;
-    public float Time;
+    [SerializeField] private Text _chosenAttackDamage;
+    [SerializeField] private Text _chosenArmor;
+    [SerializeField] private Text _chosenHeal;
     int attackRolled, armorRolled, hpRolled;
     public static Action OnDicesRolled;
-   
-
-    public IEnumerator SleepTime()
-    {
-        yield return new WaitForSeconds(3f);
-
-        _chosenAttackDamage = GameObject.Find("AttackDamage").GetComponent<Text>();
-        _chosenArmor = GameObject.Find("ArmorMagicResist").GetComponent<Text>();
-        _chosenHeal = GameObject.Find("Heal").GetComponent<Text>();
-
-
-
-
-        if (_chosenAttackDamage.text != "0")
-        {
-            print("Your Attack Damage is " + _chosenAttackDamage.text);
-        }
-
-        if (_chosenArmor.text != "0")
-        {
-            print("Your Armor&MagicResist is " + _chosenArmor.text);
-        }
-
-        if (_chosenHeal.text != "0")
-        {
-            print("Your Health Increased is " + _chosenHeal.text);
-        }
-
-       
-
-    }
 
     public int GetRolledAttack()
     {
@@ -66,39 +31,26 @@ public class DiceController : MonoBehaviour
         return hpRolled;
     }
 
-    private void Update()
+    public void RollStats()
     {
-        
-        attackRolled = Random.Range(1, 6);
-        armorRolled = Random.Range(1, 6);
-        hpRolled = Random.Range(1, 6);
-        SlotNumber1.text = attackRolled.ToString();
-        SlotNumber2.text = armorRolled.ToString();
-        SlotNumber3.text = hpRolled.ToString();
-        OnBeingDisable();
-        StartCoroutine(SleepTime());
-
+        StartCoroutine(RollStatsAsync());
     }
 
- 
-
-
-    public void OnBeingDisable()
+    private IEnumerator RollStatsAsync()
     {
-        Invoke(nameof(DelayNum), Time);
+        float timer = 0;
 
-    }
-
-    public void OnBeingEnable()
-    {
-        enabled = true;
-
-    }
-
-    private void DelayNum()
-    {
-        enabled = false;
+        while(timer < 2)
+        {
+            attackRolled = Random.Range(1, 6);
+            armorRolled = Random.Range(1, 6);
+            hpRolled = Random.Range(1, 6);
+            SlotNumber1.text = attackRolled.ToString();
+            SlotNumber2.text = armorRolled.ToString();
+            SlotNumber3.text = hpRolled.ToString();
+            timer += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
         OnDicesRolled?.Invoke();
-
     }
 }
