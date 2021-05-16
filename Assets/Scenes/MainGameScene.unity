@@ -4117,9 +4117,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: SetAttackDamage
-        m_Mode: 3
+      - m_Target: {fileID: 5587077662584052076}
+        m_MethodName: AddDamage
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4817,9 +4817,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: SetAttackDamage
-        m_Mode: 3
+      - m_Target: {fileID: 5587077662584052076}
+        m_MethodName: RemoveDamage
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5371,6 +5371,7 @@ GameObject:
   - component: {fileID: 5587077662584052072}
   - component: {fileID: 5587077662584052074}
   - component: {fileID: 5587077662584052075}
+  - component: {fileID: 5587077662584052076}
   m_Layer: 5
   m_Name: FadePanel
   m_TagString: Untagged
@@ -5415,6 +5416,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5587077662584052076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5587077662584052073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 838e6d4ecd462b241a33978605d2db10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: {fileID: 5587077663165179409}
+  armor: {fileID: 5587077663340219221}
+  hp: {fileID: 5587077663019264535}
+  skillPoints: {fileID: 5587077661891561015}
 --- !u!224 &5587077662724813136
 RectTransform:
   m_ObjectHideFlags: 0

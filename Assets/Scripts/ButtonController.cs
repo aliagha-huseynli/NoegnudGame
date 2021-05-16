@@ -14,10 +14,14 @@ public class ButtonController : MonoBehaviour
     private DiceController _diceController;
 
     public static event Action OnPlayerAttack;
+    public static event Action OnPlayerHeal;
+    public static event Action OnPlayerGainArmor;
 
     private void Awake()
     {
         DiceController.OnDicesRolled += EnableButtons;
+        Player.OnPlayerTurnPass += HideRollUI;
+        Monster.OnMonsterTurnPass += ShowRollUI;
     }
 
     private void Start()
@@ -26,11 +30,10 @@ public class ButtonController : MonoBehaviour
         RollArmor.interactable = false;
         RollHp.interactable = false;
     }
-    
+
 
     private void EnableButtons()
     {
-        print("www");
         RollAd.interactable = true;
         RollArmor.interactable = true;
         RollHp.interactable = true;
@@ -48,6 +51,7 @@ public class ButtonController : MonoBehaviour
     public void RollArmorBehavior()
     {
         print("+ Armor");
+        OnPlayerGainArmor?.Invoke();
         RollArmor.interactable = false;
         RollAd.interactable = false;
         RollHp.interactable = false;
@@ -56,8 +60,26 @@ public class ButtonController : MonoBehaviour
     public void RollHpBehavior()
     {
         print("+ Hp");
+        OnPlayerHeal?.Invoke();
         RollArmor.interactable = false;
         RollAd.interactable = false;
         RollHp.interactable = false;
+    }
+
+    public void HideRollUI()
+    {
+        gameObject.SetActive(false);
+    }
+
+    public void ShowRollUI()
+    {
+        gameObject.SetActive(true);
+    }
+
+    private void OnDestroy()
+    {
+        DiceController.OnDicesRolled -= EnableButtons;
+        Player.OnPlayerTurnPass -= HideRollUI;
+        Monster.OnMonsterTurnPass -= ShowRollUI;
     }
 }

@@ -31,7 +31,7 @@ public class MainSceneUIController : MonoBehaviour
         SkillPoint.text = $"{player.SkillPoints}";
     }
 
-    public void ClearGender()
+    public static void ClearGender()
     {
         PlayerPrefs.DeleteKey((PlayerUIDisplayer.IS_IMAGE_ASSIGNED_STRING));
         PlayerPrefs.DeleteKey((PlayerUIDisplayer.GENDER));

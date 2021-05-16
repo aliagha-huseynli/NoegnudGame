@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Fire Dragon
   m_EditorClassIdentifier: 
   Element: 0
-  Damage: 10
-  Hp: 200
+  Damage: 5
+  Hp: 10

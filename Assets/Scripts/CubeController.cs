@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,6 +14,7 @@ public class CubeController : MonoBehaviour
     private bool _oneTimeClick = true;
     private bool _isActive = true;
 
+    public static event Action OnBattleStarts;
     
     public IEnumerator SleepTime()
     {
@@ -22,6 +24,7 @@ public class CubeController : MonoBehaviour
         {
             case 0:
                 SceneManager.LoadScene("FightScene", LoadSceneMode.Single);
+                OnBattleStarts?.Invoke();
                 print("It was at this moment he knew, he fucked up!");
                 break;
             case 1:
@@ -75,7 +78,7 @@ public class CubeController : MonoBehaviour
                         _target = hit.transform.gameObject;
                         _targetPosVector3 = hit.transform.position;
 
-                        _randomBoxNumber = Random.Range(0, 0); //Random Box Number Generator
+                        _randomBoxNumber = UnityEngine.Random.Range(0, 0); //Random Box Number Generator
                         print("Random Box Number is: " + _randomBoxNumber);
                         StartCoroutine(SleepTime()); //Wait for 3 second for Action after Warrior move
 
@@ -98,7 +101,7 @@ public class CubeController : MonoBehaviour
                         _target = hit.transform.gameObject;
                         _targetPosVector3 = hit.transform.position;
 
-                        _randomBoxNumber = Random.Range(0, 0); //Random Box Number Generator
+                        _randomBoxNumber = UnityEngine.Random.Range(0, 0); //Random Box Number Generator
                         print("Random Box Number is: " + _randomBoxNumber);
                         StartCoroutine(SleepTime()); //Wait for 3 second for Action after Warrior move
 
