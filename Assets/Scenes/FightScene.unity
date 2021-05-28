@@ -5164,6 +5164,7 @@ MonoBehaviour:
   _healthText: {fileID: 1123873870227758862}
   maxHealth: 0
   health: 0
+  damage: 0
   _slider: {fileID: 157985296587286006}
   hpGradient:
     serializedVersion: 2

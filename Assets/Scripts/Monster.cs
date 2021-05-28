@@ -66,7 +66,7 @@ public class Monster : MonoBehaviour
         StartCoroutine(AttackCoroutine());
     }
 
-    private int RandomiseDamagePercentage()
+    private int RandomizeDamagePercentage()
     {
         return UnityEngine.Random.Range(-2, 3);
     }
@@ -74,7 +74,7 @@ public class Monster : MonoBehaviour
     private IEnumerator AttackCoroutine()
     {
         yield return new WaitForSeconds(2);
-        OnMonsterAttack?.Invoke(damage + RandomiseDamagePercentage());
+        OnMonsterAttack?.Invoke(damage + RandomizeDamagePercentage());
         yield return new WaitForSeconds(2);
         OnMonsterTurnPass?.Invoke();
     }

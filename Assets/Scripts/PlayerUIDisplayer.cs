@@ -24,6 +24,11 @@ public class PlayerUIDisplayer : MonoBehaviour
     private void Start()
     {
         SetSliderValues(player.MaxHp, player.Hp);
+        
+    }
+
+    private void Update()
+    {
         UpdateHealth();
     }
 

@@ -18,7 +18,7 @@ public class MainSceneUIController : MonoBehaviour
 
     private void Start()
     {
-        /////////////////ClearGender();
+        //ClearGender();
         LoadGenderAndName();
         SetPlayerInfoUI();
     }
@@ -91,8 +91,8 @@ public class MainSceneUIController : MonoBehaviour
         }
     }
 
-    public void UpdatePlayerStatsUI()
+    public void Update()
     {
-
+        SetPlayerInfoUI();
     }
 }

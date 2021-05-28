@@ -45,12 +45,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(10);
-            if (Hp <= 0) { SceneManager.LoadScene(2); }
-        }
-        if (Input.GetKeyDown(KeyCode.P)) { SceneManager.LoadScene(2); }
+        
     }
 
     private void TakeDamage(int damagePercentage)
@@ -84,9 +79,17 @@ public class Player : MonoBehaviour
         {
             MainSceneUIController.ClearGender();
             SceneManager.LoadScene(1);
+            //ShowCube();
+
         }
 
         playerUIDisplayer.UpdateHealth();
+    }
+
+    private void ShowCube()
+    {
+        GameObject Cubes =GameObject.FindGameObjectWithTag("Cubes");
+        Cubes.SetActive(true);
     }
 
     private bool IsDead()
