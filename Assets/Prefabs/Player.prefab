@@ -97,6 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8980a67f60651b3428f8ce671787475d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hasFire: 0
+  hasWater: 0
+  hasElectric: 0
   Hp: 0
   MaxHp: 0
   playerUIDisplayer: {fileID: 51066468618861344}
@@ -117,10 +120,10 @@ MonoBehaviour:
   _spriteRenderer: {fileID: 5260755600417961669}
   MaleSprite: {fileID: 21300000, guid: 9c5922f40973c7f4d8ace2a79c108ec6, type: 3}
   FemaleSprite: {fileID: 21300000, guid: 161960ee984b83a4c92cb59dbfb86aab, type: 3}
-  _slider: {fileID: 4050413127028780810}
   HealthText: {fileID: 4050413125537408050}
   PlayerName: {fileID: 5311039144272254922}
-  Slider: {fileID: 4050413127028780810}
+  HpSlider: {fileID: 4050413127028780810}
+  ArmorSlider: {fileID: 1329897884433172532}
   Gradient:
     serializedVersion: 2
     key0: {r: 1, g: 0, b: 0, a: 1}
@@ -163,9 +166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c1bf643edd6da94485a766c200f91f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Items:
-  - {fileID: 11400000, guid: 433c995e127c33149883cd655396d8eb, type: 2}
-  - {fileID: 11400000, guid: e39fdf2969365774ab27762403769994, type: 2}
+  Sword: {fileID: 0}
+  Armor: {fileID: 0}
+  Shield: {fileID: 0}
+  Potion: {fileID: 0}
 --- !u!1001 &7381507482034935333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -173,6 +177,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5260755600417961668}
     m_Modifications:
+    - target: {fileID: 2852122570530905372, guid: e05a94be1b49dde4196a77be7b3d21d5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852122570530905372, guid: e05a94be1b49dde4196a77be7b3d21d5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3442148712076155277, guid: e05a94be1b49dde4196a77be7b3d21d5,
         type: 3}
       propertyPath: m_Enabled
@@ -367,5 +381,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1329897884433172532 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8360051888816283153, guid: e05a94be1b49dde4196a77be7b3d21d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 7381507482034935333}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

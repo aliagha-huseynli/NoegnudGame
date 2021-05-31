@@ -35,7 +35,7 @@ public class Monster : MonoBehaviour
     {
         _slider.maxValue = max;
         _slider.value = value;
-        fill.color = hpGradient.Evaluate(health / maxHealth);
+        fill.color = hpGradient.Evaluate((float)health / (float)maxHealth);
         _healthText.text = $"{health}/{maxHealth}";
     }
 

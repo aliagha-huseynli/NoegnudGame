@@ -20,6 +20,7 @@ public class StatsUpdater : MonoBehaviour
 
     private void UpdatePlayerStatsUI()
     {
+        print(_player.Damage);
         _damage.text = _player.Damage.ToString();
         _armor.text = _player.Armor.ToString();
         _hp.text = _player.MaxHp.ToString();

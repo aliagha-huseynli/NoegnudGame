@@ -11,20 +11,19 @@ public class PlayerUIDisplayer : MonoBehaviour
     [SerializeField] Player player = null;
     public SpriteRenderer _spriteRenderer;
     public Sprite MaleSprite, FemaleSprite;
-    [SerializeField] private Slider _slider = null;
 
     public Text HealthText = null;
     
     public Text PlayerName = null;
 
-    public Slider Slider;
+    public Slider HpSlider;
+    public Slider ArmorSlider;
     public Gradient Gradient;
     public Image FillImage;
 
     private void Start()
     {
         SetSliderValues(player.MaxHp, player.Hp);
-        
     }
 
     private void Update()
@@ -34,16 +33,40 @@ public class PlayerUIDisplayer : MonoBehaviour
 
     public void SetSliderValues(int max, int value)
     {
-        _slider.maxValue = max;
-        _slider.value = value;
+        HpSlider.maxValue = max;
+        HpSlider.value = value;
+        if(player.inventory.Armor == null)
+        {
+            ArmorSlider.maxValue = 0;
+            ArmorSlider.value = 0;
+        }
+        else
+        {
+            ArmorSlider.maxValue = player.inventory.Armor.MaxArmor;
+            ArmorSlider.value = player.inventory.Armor.Armor;
+        }
     }
 
     public void UpdateHealth()
     {
         if (player.MaxHp == 0) { return; }
-        Slider.maxValue = player.MaxHp;
-        Slider.value = player.Hp;
-        FillImage.color = Gradient.Evaluate(player.Hp / player.MaxHp);
+        HpSlider.maxValue = player.MaxHp;
+        HpSlider.value = player.Hp;
+        FillImage.color = Gradient.Evaluate((float)player.Hp / (float)player.MaxHp);
         HealthText.text = $"{player.Hp}/{player.MaxHp}";
+    }
+
+    public void UpdateArmor()
+    {
+        if (player.inventory.Armor == null)
+        {
+            ArmorSlider.maxValue = 0;
+            ArmorSlider.value = 0;
+        }
+        else
+        {
+            ArmorSlider.maxValue = player.inventory.Armor.MaxArmor;
+            ArmorSlider.value = player.inventory.Armor.Armor;
+        }
     }
 }

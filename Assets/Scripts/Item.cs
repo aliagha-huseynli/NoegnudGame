@@ -4,7 +4,8 @@ public enum ItemType
 {
     Sword,
     Armor,
-    Shield
+    Shield,
+    Potion
 }
 
 public enum Element
@@ -24,5 +25,6 @@ public class Item : ScriptableObject
     public Element itemElement;
     public int Damage = 0;
     public int Armor = 0;
+    public int MaxArmor = 0;
     public int Hp = 0;
 }

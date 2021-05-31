@@ -26,6 +26,7 @@ public class MainSceneUIController : MonoBehaviour
 
     private void SetPlayerInfoUI()
     {
+        player = FindObjectOfType<Player>();
         Damage.text = $"{player.Damage}";
         Armor.text = $"{player.Armor}";
         SkillPoint.text = $"{player.SkillPoints}";
