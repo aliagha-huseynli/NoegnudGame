@@ -19,7 +19,7 @@ public class MainSceneUIController : MonoBehaviour
     private void Start()
     {
         //ClearGender();
-        LoadGenderAndName();
+        //LoadGenderAndName();
         SetPlayerInfoUI();
     }
 
@@ -74,23 +74,23 @@ public class MainSceneUIController : MonoBehaviour
         _popup.SetActive((true));
     }
 
-    private void LoadGenderAndName()
-    {
-        string genderAssigned = PlayerPrefs.GetString(PlayerUIDisplayer.IS_IMAGE_ASSIGNED_STRING);
-        if (string.IsNullOrEmpty(genderAssigned)) { return; }
-        if (!bool.Parse((genderAssigned))) { return; }
-        _fade.SetActive((false));
-        playerUI._spriteRenderer.sprite = PlayerPrefs.GetInt(PlayerUIDisplayer.GENDER) == 0 ? playerUI.MaleSprite : playerUI.FemaleSprite;
-        string previousName = PlayerPrefs.GetString(PlayerUIDisplayer.NAME);
-        if (!string.IsNullOrEmpty(previousName))
-        {
-            PlayerName.text = previousName;
-        }
-        else
-        {
-            _popup.SetActive((true));
-        }
-    }
+    //private void LoadGenderAndName()
+    //{
+    //    string genderAssigned = PlayerPrefs.GetString(PlayerUIDisplayer.IS_IMAGE_ASSIGNED_STRING);
+    //    if (string.IsNullOrEmpty(genderAssigned)) { return; }
+    //    if (!bool.Parse((genderAssigned))) { return; }
+    //    _fade.SetActive((false));
+    //    playerUI._spriteRenderer.sprite = PlayerPrefs.GetInt(PlayerUIDisplayer.GENDER) == 0 ? playerUI.MaleSprite : playerUI.FemaleSprite;
+    //    string previousName = PlayerPrefs.GetString(PlayerUIDisplayer.NAME);
+    //    if (!string.IsNullOrEmpty(previousName))
+    //    {
+    //        PlayerName.text = previousName;
+    //    }
+    //    else
+    //    {
+    //        _popup.SetActive((true));
+    //    }
+    //}
 
     public void Update()
     {

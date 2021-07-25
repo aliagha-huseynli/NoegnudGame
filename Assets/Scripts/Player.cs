@@ -11,16 +11,16 @@ public class Player : MonoBehaviour
     public string Name { get; set; }
     public int MaxArmor { get; set; }
 
-    public bool hasFire = false;
-    public bool hasWater = false;
-    public bool hasElectric = false;
+    public bool HasFire = false;
+    public bool HasWater = false;
+    public bool HasElectric = false;
 
     public int Hp;
     public int MaxHp;
 
-    [SerializeField] PlayerUIDisplayer playerUIDisplayer = null;
-    public Inventory inventory;
-    DiceController diceController;
+    [SerializeField] PlayerUIDisplayer _playerUiDisplayer = null;
+    public Inventory Inventory;
+    DiceController _diceController;
 
     public static event Action OnPlayerTurnPass;
 
@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        diceController = FindObjectOfType<DiceController>();
+        _diceController = FindObjectOfType<DiceController>();
         CubeController.OnBattleStarts += ApplyInventory;
         ButtonController.OnPlayerAttack += Attack;
         ButtonController.OnPlayerHeal += Heal;
@@ -58,19 +58,19 @@ public class Player : MonoBehaviour
         int beforeArmorDamage = Convert.ToInt32(floatMaxHp / 100 * damagePercentage);
         int afterArmorDamage = beforeArmorDamage - Armor;
         print(afterArmorDamage);
-        if(inventory.Armor != null)
+        if(Inventory.Armor != null)
         {
-            if(inventory.Armor.Armor > 0)
+            if(Inventory.Armor.Armor > 0)
             {
-                if(inventory.Armor.Armor > afterArmorDamage)
+                if(Inventory.Armor.Armor > afterArmorDamage)
                 {
-                    inventory.Armor.Armor -= afterArmorDamage;
+                    Inventory.Armor.Armor -= afterArmorDamage;
                     afterArmorDamage = 0;
                 }
                 else
                 {
-                    afterArmorDamage -= inventory.Armor.Armor;
-                    inventory.Armor.Armor = 0;
+                    afterArmorDamage -= Inventory.Armor.Armor;
+                    Inventory.Armor.Armor = 0;
                 }
             }   
         }
@@ -83,8 +83,8 @@ public class Player : MonoBehaviour
             //ShowCube();
         }
 
-        playerUIDisplayer.UpdateHealth();
-        playerUIDisplayer.UpdateArmor();
+        _playerUiDisplayer.UpdateHealth();
+        _playerUiDisplayer.UpdateArmor();
     }
 
     private void ShowCube()
@@ -111,8 +111,8 @@ public class Player : MonoBehaviour
     {
         int damage = Damage;
         
-        diceController = FindObjectOfType<DiceController>();
-        damage += diceController.GetRolledAttack();
+        _diceController = FindObjectOfType<DiceController>();
+        damage += _diceController.GetRolledAttack();
         var monster = FindObjectOfType<Monster>();
         monster.TakeDamage(damage);
         OnPlayerTurnPass?.Invoke();
@@ -120,72 +120,72 @@ public class Player : MonoBehaviour
 
     private void Heal()
     {
-        diceController = FindObjectOfType<DiceController>();
-        Hp += diceController.GetRolledHp();
+        _diceController = FindObjectOfType<DiceController>();
+        Hp += _diceController.GetRolledHp();
         Hp = Mathf.Min(Hp, MaxHp);
-        playerUIDisplayer.UpdateHealth();
+        _playerUiDisplayer.UpdateHealth();
 
         OnPlayerTurnPass?.Invoke();
     }
 
     private void GainArmor()
     {
-        diceController = FindObjectOfType<DiceController>();
-        Armor += diceController.GetRolledArmor();
+        _diceController = FindObjectOfType<DiceController>();
+        Armor += _diceController.GetRolledArmor();
 
         OnPlayerTurnPass?.Invoke();
     }
     private void ApplyInventory()
     {
-        if(inventory.Sword != null)
+        if(Inventory.Sword != null)
         {
-            Damage += inventory.Sword.Damage;
-            DefineItemElement(inventory.Sword);
+            Damage += Inventory.Sword.Damage;
+            DefineItemElement(Inventory.Sword);
         }
-        if(inventory.Shield != null)
+        if(Inventory.Shield != null)
         {
-            MaxHp += inventory.Shield.Hp;
-            Hp += inventory.Shield.Hp;
-            DefineItemElement(inventory.Shield);
+            MaxHp += Inventory.Shield.Hp;
+            Hp += Inventory.Shield.Hp;
+            DefineItemElement(Inventory.Shield);
         }
-        if(inventory.Potion != null)
+        if(Inventory.Potion != null)
         {
-            Damage += inventory.Potion.Damage;
-            MaxHp += inventory.Potion.Hp;
-            Hp += inventory.Potion.Hp;
+            Damage += Inventory.Potion.Damage;
+            MaxHp += Inventory.Potion.Hp;
+            Hp += Inventory.Potion.Hp;
         }
-        if(inventory.Armor != null)
+        if(Inventory.Armor != null)
         {
-            DefineItemElement(inventory.Armor);
+            DefineItemElement(Inventory.Armor);
         }
         
-        playerUIDisplayer.UpdateHealth();
-        playerUIDisplayer.UpdateArmor();
+        _playerUiDisplayer.UpdateHealth();
+        _playerUiDisplayer.UpdateArmor();
     }
 
     private void DefeatMonster()
     {
         SkillPoints++;
 
-        if (inventory.Sword != null)
+        if (Inventory.Sword != null)
         {
-            Damage -= inventory.Sword.Damage;
+            Damage -= Inventory.Sword.Damage;
         }
-        if (inventory.Shield != null)
+        if (Inventory.Shield != null)
         {
-            MaxHp -= inventory.Shield.Hp;
-            Hp -= inventory.Shield.Hp;
+            MaxHp -= Inventory.Shield.Hp;
+            Hp -= Inventory.Shield.Hp;
             Hp = Hp <= 0 ? 1 : Hp;
         }
-        if (inventory.Potion != null)
+        if (Inventory.Potion != null)
         {
-            Damage -= inventory.Potion.Damage;
-            MaxHp -= inventory.Potion.Hp;
-            Hp -= inventory.Potion.Hp;
+            Damage -= Inventory.Potion.Damage;
+            MaxHp -= Inventory.Potion.Hp;
+            Hp -= Inventory.Potion.Hp;
         }
-        playerUIDisplayer.UpdateHealth();
-        playerUIDisplayer.UpdateArmor();
-        inventory.Potion = null;
+        _playerUiDisplayer.UpdateHealth();
+        _playerUiDisplayer.UpdateArmor();
+        Inventory.Potion = null;
         SceneManager.LoadScene(2);
     }
 
@@ -194,13 +194,13 @@ public class Player : MonoBehaviour
         switch (item.itemElement)
         {
             case Element.Fire:
-                hasFire = true;
+                HasFire = true;
                 break;
             case Element.Water:
-                hasWater = true;
+                HasWater = true;
                 break;
             case Element.Electric:
-                hasElectric = true;
+                HasElectric = true;
                 break;
             case Element.None:
                 break;

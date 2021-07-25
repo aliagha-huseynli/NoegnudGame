@@ -1,0 +1,1100 @@
+fileFormatVersion: 2
+guid: b56ca263fd29b344fbcb43d89edecf5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6992077500874536341
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_0
+  - first:
+      213: -1783218683976519630
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_1
+  - first:
+      213: -366165487221477997
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_2
+  - first:
+      213: 7432698268330068866
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_3
+  - first:
+      213: -1282573085283945150
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_4
+  - first:
+      213: -8007690091188263539
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_5
+  - first:
+      213: 2235376559458307293
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_6
+  - first:
+      213: 2998843212796202924
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_7
+  - first:
+      213: 7571885476506320140
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_8
+  - first:
+      213: 4964426858575554332
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_9
+  - first:
+      213: -7236898908202663384
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_10
+  - first:
+      213: -6384659513096084327
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_11
+  - first:
+      213: -1949565277588007395
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_12
+  - first:
+      213: -2073656324394742865
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_13
+  - first:
+      213: -1005337423230056190
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_14
+  - first:
+      213: -4262128490419895028
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_15
+  - first:
+      213: 9063861226543984451
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_16
+  - first:
+      213: -57653576755786378
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_17
+  - first:
+      213: -3205164427886467353
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_18
+  - first:
+      213: -3939705670943664972
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_19
+  - first:
+      213: -4970529751816988499
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_20
+  - first:
+      213: 5819380545201349092
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_21
+  - first:
+      213: -915112395249696437
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_22
+  - first:
+      213: -1835711997681589493
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_23
+  - first:
+      213: 7265043824693454661
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_24
+  - first:
+      213: 1117511710334604205
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_25
+  - first:
+      213: 3628214303742693996
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_26
+  - first:
+      213: -5284661448681987789
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_27
+  - first:
+      213: -1568672359054235397
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_28
+  - first:
+      213: 7480105786295923764
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_29
+  - first:
+      213: 2955320540843948079
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_30
+  - first:
+      213: 385494013181965568
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_31
+  - first:
+      213: 3590313698285639948
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_32
+  - first:
+      213: -4815716475036829599
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_33
+  - first:
+      213: -8833192715761417465
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_34
+  - first:
+      213: 7732684541736171335
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_35
+  - first:
+      213: 6136927072193307972
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_36
+  - first:
+      213: 4068324804132289111
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_37
+  - first:
+      213: 7044839694111870627
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_38
+  - first:
+      213: 6622921088927065681
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_39
+  - first:
+      213: 514306396765816648
+    second: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 785
+        width: 154
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a4f5efe8627fe90800000000000000
+      internalID: -6992077500874536341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 798
+        width: 141
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2307db80e0cb047e0800000000000000
+      internalID: -1783218683976519630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_2
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 830
+        width: 96
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39de72ded6e1beaf0800000000000000
+      internalID: -366165487221477997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 584
+        width: 184
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b8976e1bf362760800000000000000
+      internalID: 7432698268330068866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_4
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 632
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2457c250392633ee0800000000000000
+      internalID: -1282573085283945150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_5
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 586
+        width: 199
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85ee43e948fed090800000000000000
+      internalID: -8007690091188263539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc4fb52327a50f10800000000000000
+      internalID: 2235376559458307293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_7
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 408
+        width: 182
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf0fc373080e9920800000000000000
+      internalID: 2998843212796202924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_8
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 384
+        width: 205
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d391b29bdb41960800000000000000
+      internalID: 7571885476506320140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 178
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17edcadcef25e440800000000000000
+      internalID: 4964426858575554332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8220b2529ce519b90800000000000000
+      internalID: -7236898908202663384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 230
+        width: 95
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994e61e00022567a0800000000000000
+      internalID: -6384659513096084327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_12
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 230
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d165ee295b0c1f4e0800000000000000
+      internalID: -1949565277588007395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_13
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 242
+        width: 104
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab85364f84e833e0800000000000000
+      internalID: -2073656324394742865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_14
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 222
+        width: 116
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20947f8a0f25c02f0800000000000000
+      internalID: -1005337423230056190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_15
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 198
+        width: 192
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05437d38b0e9d4c0800000000000000
+      internalID: -4262128490419895028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_16
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 222
+        width: 112
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f279d53cd49cd70800000000000000
+      internalID: 9063861226543984451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_17
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 240
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dc07d906c233ff0800000000000000
+      internalID: -57653576755786378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_18
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 199
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6eb1d3fe7f483d0800000000000000
+      internalID: -3205164427886467353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_19
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 156
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b49fc3d09a5359c0800000000000000
+      internalID: -3939705670943664972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_20
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 156
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da810759681250bb0800000000000000
+      internalID: -4970529751816988499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_21
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 0
+        width: 199
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1ab8106c792c050800000000000000
+      internalID: 5819380545201349092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 28
+        width: 120
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41c59fff1edc43f0800000000000000
+      internalID: -915112395249696437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 36
+        width: 112
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0324440aad3686e0800000000000000
+      internalID: -1835711997681589493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_24
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 24
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547af70edde92d460800000000000000
+      internalID: 7265043824693454661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_25
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 64
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da355decaf2328f00800000000000000
+      internalID: 1117511710334604205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_26
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 80
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c621397afa10a5230800000000000000
+      internalID: 3628214303742693996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_27
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 42
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331eb19696c19a6b0800000000000000
+      internalID: -5284661448681987789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_28
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 37
+        width: 108
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf82995fcc4fa3ae0800000000000000
+      internalID: -1568672359054235397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_29
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 24
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4343382d49caec760800000000000000
+      internalID: 7480105786295923764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f283b6abf58630920800000000000000
+      internalID: 2955320540843948079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00530c633cc895500800000000000000
+      internalID: 385494013181965568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_32
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 623
+        width: 122
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09d88a494b53d130800000000000000
+      internalID: 3590313698285639948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_33
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 622
+        width: 142
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168fe6671632b2db0800000000000000
+      internalID: -4815716475036829599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_34
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 407
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703097876023a6580800000000000000
+      internalID: -8833192715761417465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_35
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 415
+        width: 142
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747b6560f93005b60800000000000000
+      internalID: 7732684541736171335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_36
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 384
+        width: 209
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4456f8648aeba2550800000000000000
+      internalID: 6136927072193307972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_37
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 593
+        width: 194
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a373dbad7957830800000000000000
+      internalID: 4068324804132289111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_38
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 786
+        width: 196
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae0c1b606c44c160800000000000000
+      internalID: 7044839694111870627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_39
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 788
+        width: 186
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156e0f004a759eb50800000000000000
+      internalID: 6622921088927065681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx_2048x1024_Crunch_Icons_fe6c7e25-resources.assets-77_40
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 584
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 4, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84700f461fe232700800000000000000
+      internalID: 514306396765816648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -23,7 +23,7 @@ public class CubeController : MonoBehaviour
         switch (_randomBoxNumber)
         {
             case 0:
-                SceneManager.LoadScene("FightScene", LoadSceneMode.Single);
+                SceneManager.LoadScene(3, LoadSceneMode.Single);
                 OnBattleStarts?.Invoke();
                 print("It was at this moment he knew, he fucked up!");
                 break;

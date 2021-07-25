@@ -35,15 +35,15 @@ public class PlayerUIDisplayer : MonoBehaviour
     {
         HpSlider.maxValue = max;
         HpSlider.value = value;
-        if(player.inventory.Armor == null)
+        if(player.Inventory.Armor == null)
         {
             ArmorSlider.maxValue = 0;
             ArmorSlider.value = 0;
         }
         else
         {
-            ArmorSlider.maxValue = player.inventory.Armor.MaxArmor;
-            ArmorSlider.value = player.inventory.Armor.Armor;
+            ArmorSlider.maxValue = player.Inventory.Armor.MaxArmor;
+            ArmorSlider.value = player.Inventory.Armor.Armor;
         }
     }
 
@@ -58,15 +58,15 @@ public class PlayerUIDisplayer : MonoBehaviour
 
     public void UpdateArmor()
     {
-        if (player.inventory.Armor == null)
+        if (player.Inventory.Armor == null)
         {
             ArmorSlider.maxValue = 0;
             ArmorSlider.value = 0;
         }
         else
         {
-            ArmorSlider.maxValue = player.inventory.Armor.MaxArmor;
-            ArmorSlider.value = player.inventory.Armor.Armor;
+            ArmorSlider.maxValue = player.Inventory.Armor.MaxArmor;
+            ArmorSlider.value = player.Inventory.Armor.Armor;
         }
     }
 }

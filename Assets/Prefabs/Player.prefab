@@ -97,12 +97,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8980a67f60651b3428f8ce671787475d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasFire: 0
-  hasWater: 0
-  hasElectric: 0
+  HasFire: 0
+  HasWater: 0
+  HasElectric: 0
   Hp: 0
   MaxHp: 0
-  playerUIDisplayer: {fileID: 51066468618861344}
+  _playerUiDisplayer: {fileID: 51066468618861344}
+  Inventory: {fileID: 1968690260052725735}
   defaultPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &51066468618861344
 MonoBehaviour:
@@ -166,8 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c1bf643edd6da94485a766c200f91f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sword: {fileID: 0}
-  Armor: {fileID: 0}
+  Sword: {fileID: 11400000, guid: 433c995e127c33149883cd655396d8eb, type: 2}
+  Armor: {fileID: 11400000, guid: 9e33a7a530afb06409669fa06656c3ad, type: 2}
   Shield: {fileID: 0}
   Potion: {fileID: 0}
 --- !u!1001 &7381507482034935333

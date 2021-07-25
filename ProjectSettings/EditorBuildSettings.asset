@@ -12,15 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 75bccceb8aa2a4540873511c32edd902
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Main Menu.unity
     guid: 6622ae5bd0a6493409485cfdb3590c56
   - enabled: 1
-    path: Assets/Scenes/MainGameScene.unity
+    path: Assets/Scenes/Main Game Scene.unity
     guid: 6c4c6dc8edcac1e47b004e24f1232f69
   - enabled: 1
-    path: Assets/Scenes/FightScene.unity
+    path: Assets/Scenes/Fight Scene.unity
     guid: f95d6ec5c44701644a7822d90cf79933
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Choose Gender.unity
     guid: 9565eb03dd19ec347bf64a33cb836cf8
   m_configObjects: {}
